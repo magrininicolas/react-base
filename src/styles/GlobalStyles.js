@@ -26,16 +26,18 @@ export default createGlobalStyle`
     color: #fff;
     padding: 10px 20px;
     border-radius: 4px;
-    font-weight:
+    font-weight: 700;
   }
 
   a {
     text-decoration: none;
+    color: ${primaryColor};
   }
 
   ul {
     list-style: none;
   }
+
 `;
 
 export const Container = styled.section`
